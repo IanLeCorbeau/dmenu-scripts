@@ -3,8 +3,8 @@ A set of scripts to do various tasks using Suckless' dmenu. All these scripts ar
 
 ### Scripts
   * netcon / netdiscon: connect / disconnect networks (depends on NetworkManager)
-![](https://raw.githubusercontent.com/I-LeCorbeau/dmenu-scripts/master/.previews/netcon_preview.png?token=AOH2DYAYWKBSP6OAWRXFDVC6EX5WG)
-![](https://raw.githubusercontent.com/I-LeCorbeau/dmenu-scripts/master/.previews/netdiscon_preview.png?token=AOH2DYGEEDBGE5TIYMN64GK6EX5XW)
+![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/netcon_preview.png?raw=true)
+![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/netdiscon_preview.png?raw=true)
 
   * usbmount / usbunmount / usbpoweroff: mount / unmount / poweroff drives (depends on udisks2, also depends on a policykit if you want to mount internal drives)
 ![](https://raw.githubusercontent.com/I-LeCorbeau/dmenu-scripts/master/.previews/usbmount_preview.png?token=AOH2DYBZX75TYATZ3HVC5B26EX5HU)
