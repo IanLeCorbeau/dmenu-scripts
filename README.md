@@ -9,6 +9,6 @@ A set of scripts to do various tasks using Suckless' dmenu. All these scripts ar
 
 #### TODO
   * poweroffreboot2 (for Void Linux install): poweroff or reboot computer, but does not rely on systemd. Will require that the user has permission to poweroff and reboot without password (uses sudo poweroff / sudo reboot)
- * Check for and remove "bashisms" to make the scripts more portable
+ * Check for and remove "bashisms" (if there are any) to make the scripts more portable
 
 More will come.
