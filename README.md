@@ -13,7 +13,7 @@ A set of scripts to do various tasks using Suckless' dmenu. All these scripts ar
 ![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/usbunmount_preview.png?raw=true)
 ![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/usbpoweroff_preview.png?raw=true)
 
-  * poweroffreboot1: poweroff or reboot computer. (systemd version, uses systemctl and doesn't require sudo)
+  * poweroffreboot: poweroff or reboot computer. (This one uses the systemctl poweroff/reboot commands, but for non-systemd distros, you can install elogind and replace "systemctl" with "loginctl")
 ![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/poweroffreboot1_preview.png?raw=true)
 
   * monitor: switch monitor setup. (relies on xrandr)
