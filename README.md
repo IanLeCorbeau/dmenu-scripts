@@ -2,6 +2,8 @@
 A set of scripts to do various tasks using Suckless' dmenu. All these scripts are tied to keyboard shortcuts using xbindkeys or sxhkd.
 
 ### Scripts
+  * chwall-dmenu: change wallpaper with dmenu. Details found [here](https://lecorbeausvault.wordpress.com/2020/07/08/chwall-chwall-dmenu-change-wallpaper-via-command-line-or-dmenu/).
+
   * netcon / netdiscon: connect / disconnect networks (depends on NetworkManager)
 ![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/netcon_preview.png?raw=true)
 ![](https://github.com/I-LeCorbeau/dmenu-scripts/blob/master/.previews/netdiscon_preview.png?raw=true)
