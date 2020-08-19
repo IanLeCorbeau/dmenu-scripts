@@ -1,8 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-DRIVES=$(lsblk -lp | grep "part $1" | awk '{print $1, "(" $4 ")"}' | dmenu -p unmount)
-
-for i in ${DRIVES}; do
-	udisksctl unmount -b $i
-	exit 1
-done
+udisksctl unmount -b "$(lsblk -lp | awk '/part/ {print $1, "(" $4 ")"}' | dmenu -p unmount)"

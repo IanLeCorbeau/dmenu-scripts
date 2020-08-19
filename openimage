@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sxiv "$(find ~/Pictures -type f | sort -n | xargs -r0 | dmenu -l 15 -p Open:)"
