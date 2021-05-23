@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-CHOICE=$(echo -e "Shutdown\nReboot" | dmenu -p ?)
+CHOICE=$(printf '%s\n' "Poweroff" "Reboot" | dmenu -p ?)
 
 case "$CHOICE" in 
-	Shutdown) systemctl poweroff & ;;
-	Reboot) systemctl reboot & ;;
+	Poweroff) systemctl poweroff ;;
+	Reboot) systemctl reboot ;;
 esac
 		
